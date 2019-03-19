@@ -31,7 +31,7 @@ public class Conexao {
         	//--------------------------------------------
         	
             Class.forName("com.mysql.jdbc.Driver");            
-            return DriverManager.getConnection("jdbc:mysql://localhost:3306/agenda", "usuario", "sena");
+            return DriverManager.getConnection("jdbc:mysql://localhost:3306/agenda", "usuario", "senha");
                         
             
         } catch (Exception e) {
